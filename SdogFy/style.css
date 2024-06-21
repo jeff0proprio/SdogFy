@@ -1,0 +1,136 @@
+
+body{
+
+    /* background-image: url("pngs/fundo.gif"); */
+    border: 10px #1FDE64;
+    border-radius: 55px;
+    background-color: #121212;
+    margin: 75px auto auto 45px;
+
+}
+
+h2, p {
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.Buscar {
+
+    border: 3px solid #00d3ff;
+    border-radius: 50px;
+    width: 250px;
+    height: 100px;
+
+}
+
+.ConteinerTopo h1{
+    /* color: #1FDE64; */
+    color: #00d3ff;
+    font-size: 35px;
+}
+
+.ConteinerTopo{
+
+    margin: 0px auto 55px auto;
+    display: flex;
+    order: 4;
+    gap: 1px;
+    justify-content: space-around;
+    
+}
+
+
+.FeitoParaTittle{
+
+    text-align: left;
+    font-size: 25px;
+
+}
+
+h2, h3, ul, p{
+    color: #FFFFFF;
+}
+
+
+.FeitoPara{
+
+    display: flex;
+    flex-direction: row;
+    margin: 45px auto auto 45px;
+    gap: 40px;
+
+}
+
+.LinkInflar{
+    display: inline-block;
+    transition: transform 0.25s ease-in-out;
+}
+
+.LinkInflar:hover{
+    transform: scale(1.15);
+}
+
+.FeitoPara img{
+
+    height: 250px;
+    width: 150px;
+
+}
+
+
+.Artistas img{
+
+    width: 150px;
+    height: 150px;
+    border-radius: 200px;
+
+}
+
+.Artistas {
+
+    margin-left: 45px;
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+
+
+.ArtistaLogo {
+
+    display: inline-block;
+    transition: transform 0.25s ease-in-out;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+
+.ArtistaLogo:hover{
+    transform: scale(1.15);
+}
+
+
+.ArtistasLogo p, a {
+
+    text-align: center;
+    font-size: 15px;
+}
+
+
+.Sdogfy img{
+
+    height: 500px;
+    width: 300px;
+
+}
+
+.Sdogfy{
+
+    display: flex;
+    justify-content: space-around;
+    
+
+}
